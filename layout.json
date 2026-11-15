@@ -1,0 +1,328 @@
+{
+  "version": "1.0.0",
+  "navigation": "NavFull",
+  "navigationConfig": {
+    "links": [
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Conditions",
+        "href": "/conditions"
+      },
+      {
+        "label": "How it works",
+        "href": "/how-it-works"
+      },
+      {
+        "label": "The Wire",
+        "href": "/the-wire"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "cta": {
+      "label": "Check eligibility",
+      "href": "/consultation"
+    },
+    "cta2": {
+      "label": "Patient login",
+      "href": "/login"
+    },
+    "showCart": true
+  },
+  "sections": [
+    {
+      "id": "hero",
+      "type": "HeroSplit",
+      "config": {
+        "eyebrow": "Doctor-led clinic",
+        "title": "Care that starts with a conversation",
+        "subtitle": "Medical cannabis, prescribed by specialists and delivered by a licensed pharmacy.",
+        "description": "Tell us about your condition and the treatments you have already tried. A specialist doctor reviews every application before anything is prescribed.",
+        "ctaText": "Check eligibility",
+        "ctaHref": "/consultation",
+        "secondaryCtaText": "How it works",
+        "secondaryCtaHref": "/how-it-works",
+        "imageUrl": "assets/hero.jpg"
+      }
+    },
+    {
+      "id": "numbers",
+      "type": "Stats",
+      "config": {
+        "heading": "The service in numbers",
+        "density": "compact",
+        "items": [
+          {
+            "value": "15",
+            "label": "Minutes to check your eligibility"
+          },
+          {
+            "value": "2",
+            "label": "Working days for a clinical reply"
+          },
+          {
+            "value": "12",
+            "label": "Weeks to your first review"
+          },
+          {
+            "value": "7",
+            "label": "Days of patient support each week"
+          }
+        ]
+      }
+    },
+    {
+      "id": "values",
+      "type": "ValueProps",
+      "config": {
+        "eyebrow": "Why Pilot Clinic",
+        "heading": "Built around the patient, not the product",
+        "subtitle": "Three commitments that shape every consultation.",
+        "textAlign": "left",
+        "variant": "bordered",
+        "iconStyle": "square",
+        "align": "left",
+        "density": "spacious",
+        "items": [
+          {
+            "icon": "Stethoscope",
+            "title": "Specialist prescribers",
+            "description": "Every prescription is written by a doctor on the specialist register, after reviewing your medical history."
+          },
+          {
+            "icon": "ClipboardList",
+            "title": "A plan you can follow",
+            "description": "You leave each consultation with a written plan: what was prescribed, how to take it and when we review it."
+          },
+          {
+            "icon": "ShieldCheck",
+            "title": "Pharmacy-dispensed",
+            "description": "Medicines are dispensed by a licensed pharmacy and delivered in discreet, tracked packaging."
+          }
+        ]
+      }
+    },
+    {
+      "id": "clinic",
+      "type": "About",
+      "config": {
+        "eyebrow": "The clinic",
+        "heading": "Specialist care, plainly explained",
+        "textAlign": "left",
+        "content": "Pilot Clinic is run by doctors who prescribe cannabis-based medicines for patients whose earlier treatments have not worked well enough. We explain the options in plain language, agree a plan with you and review it at regular follow-ups.",
+        "imageUrl": "assets/about.jpg",
+        "contentPosition": "left",
+        "ctaText": "About the clinic",
+        "density": "normal",
+        "stats": [
+          {
+            "value": "12 weeks",
+            "label": "First review after starting"
+          },
+          {
+            "value": "1 team",
+            "label": "Doctor, pharmacist and patient support"
+          }
+        ]
+      },
+      "colorOverrides": {
+        "background": "172 30% 93%",
+        "surface": "0 0% 100%"
+      }
+    },
+    {
+      "id": "process",
+      "type": "ProcessSteps",
+      "config": {
+        "eyebrow": "How it works",
+        "heading": "From first question to first delivery",
+        "subtitle": "Four steps, each with a named person responsible for it.",
+        "orientation": "horizontal",
+        "density": "normal",
+        "steps": [
+          {
+            "icon": "FileText",
+            "title": "Check eligibility",
+            "description": "Answer a short questionnaire about your condition and previous treatment."
+          },
+          {
+            "icon": "MessageSquare",
+            "title": "Meet your doctor",
+            "description": "A video consultation with a specialist who reviews your records."
+          },
+          {
+            "icon": "Pill",
+            "title": "Receive your prescription",
+            "description": "If treatment is appropriate, your prescription goes to the pharmacy the same day."
+          },
+          {
+            "icon": "Truck",
+            "title": "Tracked delivery",
+            "description": "The pharmacy dispenses and ships your medicine to your door."
+          }
+        ]
+      }
+    },
+    {
+      "id": "patients",
+      "type": "Testimonials",
+      "config": {
+        "eyebrow": "Patients",
+        "heading": "In their words",
+        "subtitle": "What patients say about the service.",
+        "variant": "plain",
+        "density": "normal",
+        "items": [
+          {
+            "quote": "The doctor took the time to go through my history properly. Nothing felt rushed, and I knew exactly what the next step was.",
+            "name": "Hannah R.",
+            "role": "Patient since 2025",
+            "rating": 5
+          },
+          {
+            "quote": "Clear answers to every question, and follow-up appointments that actually happen when they say they will.",
+            "name": "Marcus T.",
+            "role": "Patient since 2024",
+            "rating": 5
+          },
+          {
+            "quote": "Ordering a repeat prescription takes a couple of minutes and the delivery has arrived on time every month.",
+            "name": "Priya S.",
+            "role": "Patient since 2025",
+            "rating": 5
+          }
+        ]
+      },
+      "colorOverrides": {
+        "background": "186 58% 11%",
+        "surface": "186 42% 16%",
+        "text": "170 18% 88%",
+        "heading": "0 0% 100%",
+        "primary": "170 48% 62%",
+        "accent": "32 88% 66%",
+        "border": "186 30% 26%"
+      }
+    },
+    {
+      "id": "faq",
+      "type": "FAQ",
+      "config": {
+        "eyebrow": "Questions",
+        "heading": "Before you start",
+        "subtitle": "The questions patients ask most often before their first consultation.",
+        "density": "normal",
+        "items": [
+          {
+            "question": "Who can be prescribed medical cannabis?",
+            "answer": "Adults with a diagnosed condition who have already tried licensed treatments without enough benefit. A specialist doctor decides whether a prescription is appropriate for you."
+          },
+          {
+            "question": "Do I need a referral from my GP?",
+            "answer": "No. You can apply directly. With your consent we request a summary of your medical records so the doctor can review your history."
+          },
+          {
+            "question": "What does a consultation involve?",
+            "answer": "A video appointment with a specialist doctor, usually 20 to 30 minutes. You discuss your condition, earlier treatment and what you hope to achieve."
+          },
+          {
+            "question": "How are prescriptions delivered?",
+            "answer": "A licensed pharmacy dispenses your prescription and sends it by tracked courier in plain packaging. A signature is required on delivery."
+          }
+        ]
+      }
+    },
+    {
+      "id": "cta",
+      "type": "CTABanner",
+      "config": {
+        "eyebrow": "Next step",
+        "heading": "See whether you are eligible",
+        "subtitle": "The questionnaire takes about fifteen minutes. A member of the clinical team replies within two working days.",
+        "ctaText": "Check eligibility",
+        "ctaHref": "/consultation",
+        "footnote": "Free to check. No obligation to book.",
+        "density": "spacious"
+      }
+    }
+  ],
+  "footer": "FooterBrand",
+  "footerConfig": {
+    "partnerMark": "compact",
+    "columnIcon": "none",
+    "tagline": "Specialist-led medical cannabis care.",
+    "address": "1 Pilot Way, London",
+    "email": "care@pilotclinic.example",
+    "disclaimer": "Medical cannabis is a regulated medicine. Availability and prescribing rules vary by jurisdiction. Consult a qualified medical professional. Keep out of reach of children.",
+    "sections": [
+      {
+        "title": "Clinic",
+        "links": [
+          {
+            "label": "About",
+            "href": "/about"
+          },
+          {
+            "label": "How it works",
+            "href": "/how-it-works"
+          },
+          {
+            "label": "Conditions",
+            "href": "/conditions"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
+        ]
+      },
+      {
+        "title": "Patients",
+        "links": [
+          {
+            "label": "Check eligibility",
+            "href": "/consultation"
+          },
+          {
+            "label": "Patient login",
+            "href": "/login"
+          },
+          {
+            "label": "FAQ",
+            "href": "/faq"
+          },
+          {
+            "label": "The Wire",
+            "href": "/the-wire"
+          }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          {
+            "label": "Privacy policy",
+            "href": "/privacy"
+          },
+          {
+            "label": "Terms of service",
+            "href": "/terms"
+          },
+          {
+            "label": "Regulatory",
+            "href": "/regulatory"
+          }
+        ]
+      }
+    ],
+    "socialLinks": []
+  },
+  "settings": {
+    "wrapperClass": "template-v2-pilot",
+    "googleFontsUrl": "https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Newsreader:wght@500;600&display=swap"
+  }
+}

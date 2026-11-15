@@ -1,0 +1,10 @@
+/* Pilot Clinic. Colours, type, radius, shadows and spacing come from the
+   design system in defaults.json; this file adds one background wash. */
+
+.template-v2-pilot [data-section-type="HeroSplit"] {
+  background-image: linear-gradient(
+    180deg,
+    hsl(var(--tenant-color-primary) / 0.07),
+    hsl(var(--tenant-color-primary) / 0)
+  );
+}

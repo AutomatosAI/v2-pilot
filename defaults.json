@@ -1,0 +1,129 @@
+{
+  "template": "v2-pilot",
+  "slug": "v2-pilot",
+  "logoPath": "assets/logo.png",
+  "heroImagePath": "assets/hero.jpg",
+  "designSystem": {
+    "schemaVersion": 2,
+    "colors": {
+      "primary": "184 62% 20%",
+      "secondary": "178 44% 30%",
+      "accent": "26 78% 36%",
+      "background": "168 24% 97%",
+      "surface": "0 0% 100%",
+      "text": "188 20% 24%",
+      "heading": "186 58% 11%"
+    },
+    "typography": {
+      "fontFamily": {
+        "body": "'Manrope', system-ui, -apple-system, sans-serif",
+        "heading": "'Newsreader', Georgia, 'Times New Roman', serif"
+      },
+      "fontSize": { "base": "16", "hero": "64", "section": "40" },
+      "fontWeight": { "body": "400", "heading": "600" },
+      "letterSpacing": "normal",
+      "heading": { "letterSpacing": "tight", "transform": "none", "lineHeight": "tight" }
+    },
+    "borderRadius": { "container": "large", "button": "pill" },
+    "shadows": { "card": "soft", "tint": "brand" },
+    "spacing": { "scale": "normal" },
+    "button": { "size": "medium" },
+    "glassEffect": "none",
+    "buttonHoverEffect": "lift",
+    "animationType": "fade-up",
+    "dividerStyle": "none"
+  },
+  "pageContent": {
+    "home": {
+      "heroTitle": "Care that starts with a conversation",
+      "heroSubtitle": "Medical cannabis, prescribed by specialists and delivered by a licensed pharmacy.",
+      "heroCtaText": "Check eligibility",
+      "heroAlignment": "left",
+      "heroHeight": "large",
+      "heroOverlayStyle": "gradient-dark",
+      "heroOverlayOpacity": 50
+    },
+    "about": {
+      "heroTitle": "About Pilot Clinic",
+      "heroSubtitle": "A specialist clinic for patients whose earlier treatments have not worked well enough.",
+      "missionTitle": "Our mission",
+      "missionParagraphs": [
+        "Pilot Clinic exists to give patients a careful, unhurried route to cannabis-based medicines when a specialist judges them appropriate.",
+        "Every patient is assessed by a doctor on the specialist register. We explain what is being prescribed and why, in plain language, and we write it down.",
+        "Treatment is reviewed at regular follow-ups, and the plan changes when the evidence from your own experience says it should."
+      ]
+    },
+    "contact": {
+      "title": "Get in touch",
+      "description": "Questions about eligibility, an existing prescription or a delivery? The patient support team replies within one working day.",
+      "email": "care@pilotclinic.example",
+      "phone": "+44 20 7946 0000",
+      "address": "1 Pilot Way, London"
+    },
+    "support": {
+      "contactEmail": "care@pilotclinic.example",
+      "contactPhone": "+44 20 7946 0000"
+    },
+    "educationHotspots": [],
+    "logoPlacement": {
+      "navPosition": "left",
+      "navSize": 44,
+      "showBusinessName": true,
+      "heroShowLogo": false,
+      "heroX": 50,
+      "heroY": 50,
+      "heroSize": 80,
+      "heroStyle": "plain",
+      "footerShowLogo": true
+    }
+  },
+  "navigation": {
+    "links": [
+      { "label": "About", "href": "/about" },
+      { "label": "Conditions", "href": "/conditions" },
+      { "label": "How it works", "href": "/how-it-works" },
+      { "label": "The Wire", "href": "/the-wire" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "cta": { "label": "Check eligibility", "href": "/consultation" },
+    "cta2": { "label": "Patient login", "href": "/login" },
+    "showCart": true
+  },
+  "footer": {
+    "partnerMark": "compact",
+    "columnIcon": "none",
+    "tagline": "Specialist-led medical cannabis care.",
+    "address": "1 Pilot Way, London",
+    "email": "care@pilotclinic.example",
+    "disclaimer": "Medical cannabis is a regulated medicine. Availability and prescribing rules vary by jurisdiction. Consult a qualified medical professional. Keep out of reach of children.",
+    "sections": [
+      {
+        "title": "Clinic",
+        "links": [
+          { "label": "About", "href": "/about" },
+          { "label": "How it works", "href": "/how-it-works" },
+          { "label": "Conditions", "href": "/conditions" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      },
+      {
+        "title": "Patients",
+        "links": [
+          { "label": "Check eligibility", "href": "/consultation" },
+          { "label": "Patient login", "href": "/login" },
+          { "label": "FAQ", "href": "/faq" },
+          { "label": "The Wire", "href": "/the-wire" }
+        ]
+      },
+      {
+        "title": "Legal",
+        "links": [
+          { "label": "Privacy policy", "href": "/privacy" },
+          { "label": "Terms of service", "href": "/terms" },
+          { "label": "Regulatory", "href": "/regulatory" }
+        ]
+      }
+    ],
+    "socialLinks": []
+  }
+}

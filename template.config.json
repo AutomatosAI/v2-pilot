@@ -1,0 +1,16 @@
+{
+  "id": "v2-pilot",
+  "slug": "v2-pilot",
+  "name": "V2 Pilot (Pilot Clinic)",
+  "description": "Test template for Template Design System v2: a calm, clinical-modern clinic look in deep teal with serif headings. Not a marketplace template.",
+  "category": "medical",
+  "tags": ["test", "design-system-v2", "medical", "clinic", "teal", "serif"],
+  "features": [
+    "Design system v2 tokens only",
+    "Eyebrows, section density and card variants",
+    "Dark and tinted sections by colour override",
+    "Compact Dr Green partner mark"
+  ],
+  "author": "BudStacks Platform",
+  "version": "1.0.0"
+}
