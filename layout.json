@@ -58,20 +58,20 @@
         "density": "compact",
         "items": [
           {
-            "value": "15",
-            "label": "Minutes to check your eligibility"
+            "value": "15 min",
+            "label": "To check your eligibility"
           },
           {
-            "value": "2",
-            "label": "Working days for a clinical reply"
+            "value": "2 days",
+            "label": "For a clinical reply"
           },
           {
-            "value": "12",
-            "label": "Weeks to your first review"
+            "value": "12 weeks",
+            "label": "To your first review"
           },
           {
-            "value": "7",
-            "label": "Days of patient support each week"
+            "value": "7 days",
+            "label": "Patient support each week"
           }
         ]
       }
